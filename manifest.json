@@ -1,0 +1,14 @@
+{
+   "description": "Reverts Google Plus' favicon to the old one.",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "name": "Gminus",
+   "version": "1.0.1",
+   "content_scripts": [
+      {
+         "matches": [ "https://plus.google.com/*", "http://plus.google.com/*" ],
+         "js": ["gminus.js"]
+      }
+    ]
+}
